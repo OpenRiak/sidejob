@@ -4,3 +4,5 @@ ebin/sidejob.app
 .eunit
 _build
 .eqc-info
+rebar.lock
+current_counterexample.eqc
