@@ -1,8 +1,38 @@
+# rebar
+*.crashdump
+/.cache/
+/.eqc*
+/.eunit/
+/.rebar/
+/.rebar3/
+/_build/
+/_checkouts
+/deps
+/rebar.lock
+
+# work environments
+*.bak
+*.dump
+*.iml
+*.plt
+*.sublime-project
+*.sublime-workspace
+*.tmp
+*.txt
+*_plt
+*~
+.DS_Store
+.idea/
+.project
+.settings/
+.tm_properties
+erln8.config
+tmp/
+
+# Erlang build/test artifacts
+*.app
 *.beam
-.*.swp
-ebin/sidejob.app
-.eunit
-_build
-.eqc-info
-rebar.lock
-current_counterexample.eqc
+*.eqc
+/doc/
+/ebin/
+log/
