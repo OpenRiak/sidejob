@@ -5,10 +5,9 @@
   {registered, []},
   {applications, [
                   kernel,
-                  stdlib,
-                  syntax_tools,
-                  compiler
+                  stdlib
                  ]},
+  {included_applications, [syntax_tools, compiler]},
   {registered, []},
   {mod, {sidejob_app, []}},
   {env, []}
